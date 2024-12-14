@@ -12,4 +12,6 @@ print("Der String mit der Variable y ist", len(y), "Zeichen lang.")
 # Buchstaben in Strings verändern. Strings sind unveränderliche Datentypen.
 
 x = "hallo"
-x[0] = "H"
+
+x = "H" +x[1:]
+print(x)
