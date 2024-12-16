@@ -1,0 +1,4 @@
+def users_age():
+    age_string = input("Wie alt bist du? ")
+    age = int(age_string)
+    print("Du bist " + age + "Jahre alt")
