@@ -1,12 +1,18 @@
 # Definiere eine Funktion namens "square", die eine Zahl annimmt und hoch zwei zurückgibt.
-# Funktionsdefinition
+# Funktionsdefinition:
 
 def square_root(zahl):
     return pow(zahl, 0.5)
 
+# Funktion ohne Argumente:
 def square_root_no_argument():
     zahl = user_input
     return pow(zahl, 0.5)
+
+# Funktion mit zwei Argumenten:
+
+def add(zahl1,zahl2):
+    return zahl1 + zahl2
 
 
 
