@@ -1,4 +1,5 @@
-def users_age():
-    age_string = input("Wie alt bist du? ")
-    age = int(age_string)
-    print("Du bist " + age + "Jahre alt")
+# 1. Schreibe eine Funktion, die den Benutzer nach seinem Namen fragt und diesen
+# auf der Konsole ausgibt.
+def namensabfrage():
+    name = input("Gib dein Namen an: ")
+    print(f"Du bist also {name}.")
