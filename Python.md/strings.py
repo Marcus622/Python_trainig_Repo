@@ -2,13 +2,16 @@
 x = "Hallo Welt!!!"
 print(x[6:10])
 
-# INDEXING > Konzept zur Zuordnung von Nummern an einzelnen Bestandteilen einer Sequenz/Zeichenkette.
-# Ein Index wird immer in eckigen Klammmern [] angegeben. Mit : und eines Wertes z.B. 6 zählt Python bis zum Ende
-# durch. Er printet alles, was nach dem angegebenen Wert steht. Gibt man einen Endwert ein, wird bis dahin gezählt.
+# INDEXING > Konzept zur Zuordnung von Nummern an einzelnen Bestandteilen einer Sequenz/
+# Zeichenkette.
+# Ein Index wird immer in eckigen Klammmern [] angegeben. Mit : und eines Wertes z.B. 6 zählt 
+# Python bis zum Ende durch. Er printet alles, was nach dem angegebenen Wert steht. 
+# Gibt man einen Endwert ein, wird bis dahin gezählt.
 
-# In diversen Programmiersprachen bezeichnet „Tupel“ gemeinhin einen Listen-Datentyp, welcher über eine feste Länge 
-# verfügt und nach Definition nicht mehr verändert werden kann. Programmiersprachen wie bspw. Python, TypeScript, 
-# Swift, Haskell oder C# Verfügen über einen Tupel-Datentyp.
+# In diversen Programmiersprachen bezeichnet „Tupel“ gemeinhin einen Listen-Datentyp, welcher 
+# über eine feste Länge verfügt und nach Definition nicht mehr verändert werden kann. 
+# Programmiersprachen wie bspw. Python, TypeScript, Swift, Haskell oder C# Verfügen über einen 
+# Tupel-Datentyp.
 
 
 
