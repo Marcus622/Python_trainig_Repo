@@ -23,7 +23,8 @@ result = square_root(user_input)
 print(result)
 print(square_root_no_argument)
 
-# Wir schreiben eine Funktion, die den user nach dem Alter fragt und dieses auf der Konsole ausgibt.
+# Wir schreiben eine Funktion, die den user nach dem Alter fragt und dieses auf der Konsole 
+# ausgibt.
 
 def altersabfrage():
     age_string = input("Wie alt bist du: ")
