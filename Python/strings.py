@@ -8,12 +8,6 @@ print(x[6:10])
 # Python bis zum Ende durch. Er printet alles, was nach dem angegebenen Wert steht. 
 # Gibt man einen Endwert ein, wird bis dahin gezählt.
 
-# In diversen Programmiersprachen bezeichnet „Tupel“ gemeinhin einen Listen-Datentyp, welcher 
-# über eine feste Länge verfügt und nach Definition nicht mehr verändert werden kann. 
-# Programmiersprachen wie bspw. Python, TypeScript, Swift, Haskell oder C# Verfügen über einen 
-# Tupel-Datentyp.
-
-
 
 #SLICING > Konzept zum zerlegen von Sequenzen/Strings anhand ihrer Indizes
 #        > ermöglicht z.B. isolieren einzelner Wörter
