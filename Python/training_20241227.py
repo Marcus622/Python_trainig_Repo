@@ -20,4 +20,5 @@
 # euro = float(input("Wieviel Euro hast du? "))
 # baht = euro * 35.53
 # print("Toll, für deine" ,euro, "Euro bekommst Du" ,baht, " Baht.")
+print(type(float))
 
