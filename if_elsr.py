@@ -11,7 +11,7 @@
 #     print("Nimm das Fahrrad.")
 
 alter = int(input("Bitte geben Sie ihr Alter ein: "))
-anzahl= int(input(F"Wieviele Tickets möchtest Du kaufen? "))
+anzahl= int(input("Wieviele Tickets möchtest Du kaufen? "))
 
 if alter > 65:
     print(7.5 * anzahl)
