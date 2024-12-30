@@ -20,5 +20,9 @@
 # euro = float(input("Wieviel Euro hast du? "))
 # baht = euro * 35.53
 # print("Toll, für deine" ,euro, "Euro bekommst Du" ,baht, " Baht.")
-print(type(float))
+#print(type(float))777
 
+
+name = input("Gib einen Empfänger ein: ")
+print(f"Hallo {name} meine adresse hat sich geändert")
+print("Ich wohne jetzt auf dem Zentralfriedhof")
