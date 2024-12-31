@@ -30,8 +30,34 @@
 # print(todos)
 
 
-liste = [10,20,30]
-print(liste[1])
+#liste = [10,20,80,35,22,3]
+#liste1 = [27,3,55]
+#print(liste[])
 
-liste[2] = 50
-print(liste)  # Ausgabe: [100, 20, 30]
+# liste[2] = 50
+# print(liste)  
+
+#liste.append(40)
+# print(liste)
+
+# liste.insert(1,23)
+# print(liste)
+#liste.remove(10)
+# print(liste)
+
+# entferntes_element = liste.pop(2)
+# print(entferntes_element)
+# print(liste)
+
+# print(len(liste))
+
+# teil = liste[1:4]
+# print(teil)
+# liste.sort()
+# liste.reverse()
+# liste2 = liste + liste1
+# print(liste2)
+
+Liste = ["Hallo", "Albert","Cäsar"]
+Liste.sort()
+print(Liste)
