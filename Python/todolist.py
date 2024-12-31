@@ -23,8 +23,15 @@
 
 
 
-todos = []
-newitem = input("Was möchtest du deiner Liste hinzufügen? ")
-todos.append(newitem)
-print("Meine Liste hat diese Elemente:")
-print(todos)
+# todos = []
+# newitem = input("Was möchtest du deiner Liste hinzufügen? ")
+# todos.append(newitem)
+# print("Meine Liste hat diese Elemente:")
+# print(todos)
+
+
+liste = [10,20,30]
+print(liste[1])
+
+liste[2] = 50
+print(liste)  # Ausgabe: [100, 20, 30]
