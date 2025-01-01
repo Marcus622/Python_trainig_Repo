@@ -6,7 +6,7 @@ def miles_kilometer(miles):
     return result
   
 
-miles = 115
+miles = 200
 variable = miles_kilometer(miles)
 print(f"Die {miles} Meilen sind {variable} Km")
 
