@@ -20,7 +20,7 @@
 # oder frei ist.
 # Als erstes formuliere ich die Eingabeaufforderung
 
-import datetime
+from datetime import date
 
 
 print("Gib das gewünschte Datum im Format jjjj. mm. tt ein: ")
