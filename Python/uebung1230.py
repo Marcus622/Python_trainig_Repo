@@ -20,7 +20,13 @@
 # oder frei ist.
 # Als erstes formuliere ich die Eingabeaufforderung
 
-from datetime import date
+
+
+import datetime     # Diese Zeile importiert die datetime-Bibliothek um mit Datums-und Zeitinformationen zu arbeiten.
+                    # Sie ermöglicht es, das aktuelle Datum abzurufen, Zeiträume zu erfassen u.v.m.
+
+date = datetime.datetime.now    # gibt das aktuelle Datum und die aktuelle Uhrzeit zurück.
+print(date)                     # gibt das aktuelle Datum und die Uhrzeit auf der Konsole aus.
 
 
 print("Gib das gewünschte Datum im Format jjjj. mm. tt ein: ")
