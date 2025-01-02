@@ -1,0 +1,16 @@
+
+liste = [2,7,5,13,58,33]
+
+def summe():
+    result = 0
+    for nr1 in liste: 
+        result = result + nr11 
+    return result
+
+#for i in liste = 0
+
+
+
+
+
+#print(sum(liste))
