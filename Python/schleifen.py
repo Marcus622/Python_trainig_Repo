@@ -81,7 +81,7 @@
 
 todos = ["Swiebel", "Nabane"]
 
-for _ in range(100000):
+for _ in range(1):
     newitem = input("Was möchtest du deiner Liste hinzufügen? ")
     todos.append(newitem)
     print("Meine Liste hat diese Elemente:")
