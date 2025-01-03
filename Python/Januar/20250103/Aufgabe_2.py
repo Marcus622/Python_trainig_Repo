@@ -1,3 +1,9 @@
+# Implementiere einen Algorithmus, der als Git-Befehle Wörterbuch genutzt werden
+# soll. Also zum Beispiel soll der Nutzer pull eingeben und dazu soll eine Beschreibung
+# zu dem pull Befehl ausgegeben werden.
+
+
+
 def git_befehl_uebersicht(befehl):
     git_befehle = {
         "git init": "Initialisiert ein neues Git-Repository im aktuellen Verzeichnis.",
