@@ -31,6 +31,8 @@
 
 
 
+# Aufgabe 1
+
 # Benutzer gibt den Text und Buchstaben ein.
 text = input("Gib einen Text ein: ")
 buchstabe = input("Gib den Buchstaben ein, den du zählen möchtest: ")
