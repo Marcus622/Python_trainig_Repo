@@ -43,6 +43,9 @@ if len(buchstabe) !=1:
     print("Gib nur einen Buchstaben ein.")
 
 else:
+    print("falsch")
+
+else:
     # Zähler für die Häufigkeit des Buchstabens
     häufigkeit = 0
 
