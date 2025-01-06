@@ -31,27 +31,57 @@
 
 
 
-# Aufgabe 1
+# # Aufgabe 1
 
-# Benutzer gibt den Text und Buchstaben ein.
-text = input("Gib einen Text ein: ")
-buchstabe = input("Gib den Buchstaben ein, den du zählen möchtest: ")
+# # Benutzer gibt den Text und Buchstaben ein.
+# text = input("Gib einen Text ein: ")
+# buchstabe = input("Gib den Buchstaben ein, den du zählen möchtest: ")
 
 
-# Sicherstellen, dass der Benutzer nur ein einzelnes Zeichen eingibt
-if len(buchstabe) !=1:
-    print("Gib nur einen Buchstaben ein.")
+# # Sicherstellen, dass der Benutzer nur ein einzelnes Zeichen eingibt
+# if len(buchstabe) !=1:
+#     print("Gib nur einen Buchstaben ein.")
 
-else:
-    print("falsch")
 
-else:
-    # Zähler für die Häufigkeit des Buchstabens
-    häufigkeit = 0
+# else:
+#     # Zähler für die Häufigkeit des Buchstabens
+#     häufigkeit = 0
 
-# Schleife, die jeden Buchstaben im Text überprüft
-    for zeichen in text:
-        if zeichen == buchstabe:
-            häufigkeit +=1
+# # Schleife, die jeden Buchstaben im Text überprüft
+#     for zeichen in text:
+#         if zeichen == buchstabe:
+#             häufigkeit +=1
 
-    print(f"Der Buchstabe {buchstabe} kommt {häufigkeit} mal im Text vor.")
+#     print(f"Der Buchstabe {buchstabe} kommt {häufigkeit} mal im Text vor.")
+
+
+#     # Aufgabe 2
+
+# # Variablen für die Summe und die Anzahl er eingegebenen Zahlen.
+#     summe = 0
+#     anzahl = 5
+
+# # Schleife, die den Benutzer fünf Zahlen eingeben lässt.
+#     for i in range(anzahl):
+#         zahl = float(input(f"Gib die {i+1}. Zahl ein. ")) # Eingabe der Zahlen.
+#         summe += zahl # Die Zahl zur Summe hinzufügen.
+    
+#     # Berechnung des Durchschnitts.
+#     durchschnitt = summe / anzahl
+
+# # Ausgabe der Ergebnisse.
+#     print(f"Die Summe der Zahlen ist {summe}")
+#     print(f"Der Durchschnitt der Zahlen ist {durchschnitt}")
+
+
+
+    # Aufgabe 3
+
+    # Benutzer gibt die Anzahl der Zeilen ein
+zeilen = int(input("Gib die Anzahl der Zeilen ein: "))
+
+# Verschachtelte Schleife, um das Muster zu erzeugen
+for i in range(1, zeilen + 1):  # Äußere Schleife für die Zeilen
+    for j in range(i):  # Innere Schleife für die Sterne in jeder Zeile
+        print("*", end="")  # Ein Stern wird ohne Zeilenumbruch ausgegeben
+    print()  # Neue Zeile nach jedem Durchlauf der inneren Schleife
