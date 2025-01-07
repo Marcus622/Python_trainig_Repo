@@ -85,3 +85,4 @@ for i in range(1, zeilen + 1):  # Äußere Schleife für die Zeilen
     for j in range(i):  # Innere Schleife für die Sterne in jeder Zeile
         print("*", end="")  # Ein Stern wird ohne Zeilenumbruch ausgegeben
     print()  # Neue Zeile nach jedem Durchlauf der inneren Schleife
+
