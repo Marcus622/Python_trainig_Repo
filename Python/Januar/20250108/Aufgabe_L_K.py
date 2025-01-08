@@ -8,12 +8,14 @@ class Animal:
         self.age = age
         self.favourite_food = favourite_food
         self.energy_level = 100
-    
+
+# Beschreibung des Tieres.
+
     def get_description(self):
         return f" {self.name} is a {self.species} and {self.age} years old."
     
     def play_duration(self, duration):
-        energy_lost = 5 * duration
+        energy_lost = 5 * duration # Energieverlust je fünf Minuten.
         if self.energy_level < energy_lost:
             print("Achtung, Tier stirbt")
         
@@ -25,6 +27,7 @@ class Animal:
     def feed(self, food):
         if food == self.favourite_food:
             self.energy_level += 30
+            print(f"{self.name} liebt {self.favourite_food} und hat jetzt ein Energielevel von {self.energy_level}.")
 
         else:
             self.energy_level += 10
@@ -37,8 +40,8 @@ class Animal:
 pet1 = Animal(f"Brutus", "dog", 8, "Katzen")
 pet2 = Animal(f"Joe", "monkey", 20, "bananas")
 print(pet1.get_description())
-pet1.play_duration(10)
+pet1.play_duration(5)
 pet1.feed("Katzen")
-print(f"Sein Level liegt bei {pet1.energy_level}.")
+print(f"Eine Katze später liegt sein Level bei {pet1.energy_level}.")
 # pet1.feed("Katzen")
 
