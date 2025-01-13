@@ -42,7 +42,7 @@ class Animal:
 pet1 = Animal(f"Brutus", "dog", 8, "Katzen")
 pet2 = Animal(f"Joe", "monkey", 20, "bananas")
 print(pet1.get_description())
-pet1.play_duration(15)
+pet1.play_duration(5)
 pet1.feed("Katzen")
 # print(f"Eine Katze später liegt sein Level bei {pet1.energy_level}.")
 # pet1.feed("Katzen")
