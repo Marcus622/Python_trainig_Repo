@@ -18,8 +18,8 @@
 
 # print(einkaufszettel[1:3])
 
-# einkaufszettel = ["Banane", "Mohrrüben", ["Schokolade", "Gummitiere"]]
-# print(einkaufszettel[2][0][1:4])
+einkaufszettel = ["Banane", "Mohrrüben", ["Schokolade", "Gummitiere"]]
+print(einkaufszettel[2][0][1:4])
 
 
 
