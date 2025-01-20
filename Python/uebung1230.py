@@ -29,20 +29,23 @@ date = datetime.datetime.now    # gibt das aktuelle Datum und die aktuelle Uhrze
 print(date)                     # gibt das aktuelle Datum und die Uhrzeit auf der Konsole aus.
 
 
-print("Gib das gewünschte Datum im Format jjjj. mm. tt ein: ")
+date_today = input("Gib das gewünschte Datum im Format jjjj. mm. tt ein: ") # Hier wird der Benutzer aufgefordert, das 
+# Datum einzugeben, welches er überprüfen möchte. Diese Eingabe wird als string in der Variable date_today gespeichert.
 
 # jetzt muss ich die freien Tage definieren, die nach der Eingabe des Datums verglichen werden.
 
-Winterferien = 2024.12.24.- 2025.01.01
-Osterferien = 2025.04.18.- 2025.04.21
-Sommerferien = 2025.08.11.-2025.08.19
-Winterferien1 =  2025.12.24.-2026.01.01
-Karfreitag = 2025.04.18
-Ostermontag = 2025.04.21
-Tag_der_Arbeit = 2025.05.01
-Christi_Himmelfahrt = 2025.05.29
-Pfingstmontag = 2025.06.09
-T_d_d_e = 2025.10.03
-Reformationstag = 2025.10.31
-Weihnacht1 = 2025.12.25
-Weihnacht2 = 2025.12.26
+WinterHolidaysStart24 = "2024.12.23"
+WinterHolidaysEnd24 = "2025.01.02"
+EasterHolidaysStart25 = "2025.04.17"
+EasterHolidaysEnd25 = "2025.04.22"
+SummerHolidaysStart25 = "2025.08.08"
+SummerHolidaysEnd25 = "2025.08.20"
+WinterHolidaysStart25 = "2025.12.23"
+WinterHolidaysEnd25 = "2026.02.01"
+first_may = "2025.05.01"
+christi_verpissimus = "2025.05.29"
+pfimo = "2025.06.09"
+day_of_dawn = "2025.10.03"
+martin_luther_day = "2025.10.31"
+
+
