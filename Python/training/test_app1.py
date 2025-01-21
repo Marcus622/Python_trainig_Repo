@@ -8,9 +8,9 @@ app = Flask(__name__)
 def home():
     return "Hello, World! This is a simple API running on Mac."
 
-# @app.route("/greet/<username>")
-# def lihat_greet(username):
-#     return "Hallo und willkommen auf meiner Flask-API %s" % username
+@app.route("/greet/<name>")
+def greet(name):
+    return f"Hallo {name}, willkommen  auf meiner Flask-API."
 
 
 @app.route("/test")
